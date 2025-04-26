@@ -103,20 +103,20 @@ export const content: ContentType = {
       contact: 'Contact',
     },
     hero: {
-      title: 'Your Global Import Partner',
-      subtitle: 'Connecting businesses with the best wholesale products from around the world.',
+      title: 'Your Global Clothing Import Partner',
+      subtitle: 'Connecting fashion retailers with premium wholesale clothing from around the world.',
       cta: 'Learn More',
     },
     mission: {
       title: 'Mission & Vision',
       missionTitle: 'Our Mission',
-      missionText: 'To build sustainable global trade relationships that empower businesses to access premium wholesale products at competitive prices.',
+      missionText: 'To build sustainable global trade relationships that empower fashion retailers to access premium wholesale clothing at competitive prices.',
       visionTitle: 'Our Vision',
-      visionText: 'To become the leading global import facilitator, creating a seamless bridge between manufacturers and retailers worldwide.',
+      visionText: 'To become the leading global clothing import facilitator, creating a seamless bridge between clothing manufacturers and retailers worldwide.',
     },
     global: {
       title: 'Global Reach',
-      description: 'We connect you with quality suppliers across major manufacturing hubs worldwide.',
+      description: 'We connect you with quality clothing manufacturers across major fashion hubs worldwide.',
       countries: {
         china: 'China',
         turkey: 'Turkey',
@@ -127,32 +127,32 @@ export const content: ContentType = {
       },
       platforms: [
         {
-          name: 'Wholesale Connect',
-          description: 'Direct access to verified manufacturers',
+          name: 'Fashion Connect',
+          description: 'Direct access to verified clothing manufacturers',
         },
         {
-          name: 'Global Marketplace',
-          description: 'Browse thousands of wholesale products',
+          name: 'Global Fashion Market',
+          description: 'Browse thousands of wholesale clothing items',
         },
         {
           name: 'Import Hub',
-          description: 'Streamlined logistics and customs clearance',
+          description: 'Streamlined clothing import logistics and customs clearance',
         },
       ],
     },
     services: {
       title: 'Our Services',
-      description: 'We specialize in importing a wide range of high-quality products for wholesale distribution.',
+      description: 'We specialize in importing high-quality clothing for wholesale distribution.',
       categories: {
-        clothing: 'Clothing',
+        clothing: 'Adult Clothing',
         footwear: 'Footwear',
-        children: 'Children\'s Wear',
-        leather: 'Leather Goods',
+        children: 'Children\'s Clothing',
+        leather: 'Leather Apparel',
       },
       processTitle: 'Our Import Process',
       process: {
-        step1: 'Market Analysis',
-        step2: 'Supplier Selection',
+        step1: 'Fashion Market Analysis',
+        step2: 'Clothing Supplier Selection',
         step3: 'Logistics Management',
         step4: 'Customs Clearance',
       },
@@ -161,16 +161,16 @@ export const content: ContentType = {
       title: 'Our Credentials',
       items: {
         fairs: {
-          title: 'Global Trade Fairs',
-          description: 'Regular participation in international trade shows to source the latest products and trends.',
+          title: 'Global Fashion Fairs',
+          description: 'Regular participation in international fashion shows to source the latest trends and collections.',
         },
         service: {
           title: 'Customer Excellence',
-          description: 'Award-winning customer service with dedicated account managers for each client.',
+          description: 'Award-winning customer service with dedicated fashion consultants for each client.',
         },
         partnerships: {
           title: 'Strategic Partnerships',
-          description: 'Long-standing relationships with manufacturers and logistics providers worldwide.',
+          description: 'Long-standing relationships with leading clothing manufacturers and logistics providers worldwide.',
         },
       },
     },
@@ -190,7 +190,7 @@ export const content: ContentType = {
       success: 'Thank you for your message! We will get back to you soon.',
     },
     footer: {
-      description: 'We connect businesses with wholesale suppliers worldwide, helping you find the best products at competitive prices.',
+      description: 'We connect fashion retailers with wholesale clothing suppliers worldwide, helping you find the best clothing at competitive prices.',
       links: 'Quick Links',
       contact: 'Contact Info',
       rights: 'All Rights Reserved.',
@@ -205,20 +205,20 @@ export const content: ContentType = {
       contact: 'Contacto',
     },
     hero: {
-      title: 'Tu Socio Global de Importación',
-      subtitle: 'Conectando empresas con los mejores productos mayoristas de todo el mundo.',
+      title: 'Tu Socio Global en Importación de Ropa',
+      subtitle: 'Conectando minoristas de moda con ropa mayorista premium de todo el mundo.',
       cta: 'Más Información',
     },
     mission: {
       title: 'Misión y Visión',
       missionTitle: 'Nuestra Misión',
-      missionText: 'Construir relaciones comerciales globales sostenibles que permitan a las empresas acceder a productos mayoristas premium a precios competitivos.',
+      missionText: 'Construir relaciones comerciales globales sostenibles que permitan a los minoristas de moda acceder a ropa mayorista premium a precios competitivos.',
       visionTitle: 'Nuestra Visión',
-      visionText: 'Convertirse en el principal facilitador de importaciones a nivel mundial, creando un puente fluido entre fabricantes y minoristas en todo el mundo.',
+      visionText: 'Convertirse en el principal facilitador de importación de ropa a nivel mundial, creando un puente fluido entre fabricantes de ropa y minoristas en todo el mundo.',
     },
     global: {
       title: 'Alcance Global',
-      description: 'Te conectamos con proveedores de calidad en los principales centros de fabricación de todo el mundo.',
+      description: 'Te conectamos con fabricantes de ropa de calidad en los principales centros de moda del mundo.',
       countries: {
         china: 'China',
         turkey: 'Turquía',
@@ -229,32 +229,32 @@ export const content: ContentType = {
       },
       platforms: [
         {
-          name: 'Conexión Mayorista',
-          description: 'Acceso directo a fabricantes verificados',
+          name: 'Conexión Moda',
+          description: 'Acceso directo a fabricantes de ropa verificados',
         },
         {
-          name: 'Mercado Global',
-          description: 'Explora miles de productos mayoristas',
+          name: 'Mercado Global de Moda',
+          description: 'Explora miles de prendas de ropa mayorista',
         },
         {
           name: 'Centro de Importación',
-          description: 'Logística y despacho aduanero simplificados',
+          description: 'Logística de importación de ropa y despacho aduanero simplificados',
         },
       ],
     },
     services: {
       title: 'Nuestros Servicios',
-      description: 'Nos especializamos en la importación de una amplia gama de productos de alta calidad para distribución mayorista.',
+      description: 'Nos especializamos en la importación de ropa de alta calidad para distribución mayorista.',
       categories: {
-        clothing: 'Ropa',
+        clothing: 'Ropa para Adultos',
         footwear: 'Calzado',
         children: 'Ropa Infantil',
-        leather: 'Artículos de Cuero',
+        leather: 'Ropa de Cuero',
       },
       processTitle: 'Nuestro Proceso de Importación',
       process: {
-        step1: 'Análisis de Mercado',
-        step2: 'Selección de Proveedores',
+        step1: 'Análisis del Mercado de la Moda',
+        step2: 'Selección de Proveedores de Ropa',
         step3: 'Gestión Logística',
         step4: 'Despacho Aduanero',
       },
@@ -263,16 +263,16 @@ export const content: ContentType = {
       title: 'Nuestras Credenciales',
       items: {
         fairs: {
-          title: 'Ferias Comerciales Globales',
-          description: 'Participación regular en ferias internacionales para encontrar los últimos productos y tendencias.',
+          title: 'Ferias de Moda Globales',
+          description: 'Participación regular en ferias internacionales de moda para encontrar las últimas tendencias y colecciones.',
         },
         service: {
           title: 'Excelencia al Cliente',
-          description: 'Servicio al cliente premiado con gerentes de cuenta dedicados para cada cliente.',
+          description: 'Servicio al cliente premiado con consultores de moda dedicados para cada cliente.',
         },
         partnerships: {
           title: 'Alianzas Estratégicas',
-          description: 'Relaciones de larga duración con fabricantes y proveedores logísticos en todo el mundo.',
+          description: 'Relaciones de larga duración con fabricantes líderes de ropa y proveedores logísticos en todo el mundo.',
         },
       },
     },
@@ -292,7 +292,7 @@ export const content: ContentType = {
       success: '¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.',
     },
     footer: {
-      description: 'Conectamos empresas con proveedores mayoristas en todo el mundo, ayudándote a encontrar los mejores productos a precios competitivos.',
+      description: 'Conectamos minoristas de moda con proveedores mayoristas de ropa en todo el mundo, ayudándote a encontrar la mejor ropa a precios competitivos.',
       links: 'Enlaces Rápidos',
       contact: 'Información de Contacto',
       rights: 'Todos los Derechos Reservados.',
