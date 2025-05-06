@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { useLanguage } from '../contexts/LanguageContext';
 import { content } from '../utils/content';
+import LogoFooter from '../assets/images/Logofooter.png';
 
 const Footer: React.FC = () => {
   const { language } = useLanguage();
@@ -23,8 +24,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
-              <img src="/src/assets/images/logo.png" alt="Fushion Logo" className="w-6 h-6 mr-2 text-[#8a75d9]" />
-              <span className="text-xl font-semibold text-[#8a75d9]">FUSHION INTERNACIONAL</span>
+              <img src={LogoFooter} alt="Fushion Internacional Logo" className="w-20 h-auto" />
             </div>
             <p className="text-gray-400 mb-4 max-w-xs">
               {t.footer.description}

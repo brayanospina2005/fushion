@@ -3,6 +3,7 @@ import { Menu, X } from 'lucide-react';
 import { Link } from 'react-scroll';
 import { useLanguage } from '../contexts/LanguageContext';
 import { content } from '../utils/content';
+import Logo from '../assets/images/Logo.svg';
 
 const Header: React.FC = () => {
   const { language, toggleLanguage } = useLanguage();
@@ -39,13 +40,12 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <div className="flex items-center">
+        <div className="flex items-center justify-center md:justify-start">
           <img 
-            src="/src/assets/images/logo.png" 
-            alt="Fushion Logo" 
-            className="w-8 h-8 mr-2 text-[#8a75d9] -translate-y-[5px]" 
+            src={Logo} 
+            alt="Fushion Internacional Logo" 
+            className="w-48 h-auto -translate-y-[5px]" 
           />
-          <span className="text-xl font-semibold text-[#8a75d9]">FUSHION INTERNACIONAL</span>
         </div>
         
         {/* Desktop Navigation */}
