@@ -15,10 +15,10 @@ const MissionSection: React.FC = () => {
         </h2>
         
         <div className="grid md:grid-cols-2 gap-12">
-          <div className="bg-[#E6F3FF] rounded-lg p-8 transform transition-transform hover:scale-105">
+          <div className="bg-primary/10 rounded-lg p-8 transform transition-transform hover:scale-105">
             <div className="flex justify-center mb-6">
               <div className="bg-white p-4 rounded-full shadow-md">
-                <Target size={40} className="text-[#4A90E2]" />
+                <Target size={40} className="text-primary" />
               </div>
             </div>
             <h3 className="text-xl font-semibold text-center text-gray-800 mb-4">
@@ -29,10 +29,10 @@ const MissionSection: React.FC = () => {
             </p>
           </div>
           
-          <div className="bg-[#E6F3FF] rounded-lg p-8 transform transition-transform hover:scale-105">
+          <div className="bg-primary/10 rounded-lg p-8 transform transition-transform hover:scale-105">
             <div className="flex justify-center mb-6">
               <div className="bg-white p-4 rounded-full shadow-md">
-                <Compass size={40} className="text-[#4A90E2]" />
+                <Compass size={40} className="text-primary" />
               </div>
             </div>
             <h3 className="text-xl font-semibold text-center text-gray-800 mb-4">

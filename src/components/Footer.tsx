@@ -19,20 +19,20 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <footer className="bg-gray-800 text-white py-12">
+    <footer className="bg-primary text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
               <img src={LogoFooter} alt="Fushion Internacional Logo" className="w-20 h-auto" />
             </div>
-            <p className="text-gray-400 mb-4 max-w-xs">
+            <p className="text-white mb-4 max-w-xs">
               {t.footer.description}
             </p>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#8a75d9]">{t.footer.links}</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">{t.footer.links}</h3>
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.id}>
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                     smooth={true}
                     duration={500}
                     offset={-80}
-                    className="text-gray-400 hover:text-[#8a75d9] cursor-pointer transition-colors"
+                    className="text-white hover:text-primary/80 cursor-pointer transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -51,8 +51,8 @@ const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#8a75d9]">{t.footer.contact}</h3>
-            <address className="text-gray-400 not-italic">
+            <h3 className="text-lg font-semibold mb-4 text-white">{t.footer.contact}</h3>
+            <address className="text-white not-italic">
               123 Import Plaza, Suite 500<br />
               Miami, FL 33131, USA<br /><br />
               <span className="block mb-1">info@fushioninternacional.com</span>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-700 pt-6 text-center text-gray-400">
+        <div className="border-t border-white/30 pt-6 text-center text-white/80">
           <p>&copy; {currentYear} FUSHION INTERNACIONAL. {t.footer.rights}</p>
         </div>
       </div>

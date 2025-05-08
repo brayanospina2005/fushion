@@ -11,43 +11,43 @@ const GlobalReachSection: React.FC = () => {
     {
       id: 1,
       name: t.global.countries.china,
-      flag: "🇨🇳",
+      code: "cn",
       region: "Asia"
     },
     {
       id: 2,
       name: t.global.countries.turkey,
-      flag: "🇹🇷",
+      code: "tr",
       region: "Eurasia"
     },
     {
       id: 3,
       name: t.global.countries.panama,
-      flag: "🇵🇦",
+      code: "pa",
       region: "Central America"
     },
     {
       id: 4,
       name: t.global.countries.europe,
-      flag: "🇪🇺",
+      code: "eu",
       region: "Europe"
     },
     {
       id: 5,
       name: t.global.countries.brazil,
-      flag: "🇧🇷",
+      code: "br",
       region: "South America"
     },
     {
       id: 6,
       name: t.global.countries.colombia,
-      flag: "🇨🇴",
+      code: "co",
       region: "South America"
     }
   ];
 
   return (
-    <section id="global" className="py-20 bg-[#E6F3FF]">
+    <section id="global" className="py-20 bg-primary/10">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-16">
           {t.global.title}
@@ -63,15 +63,17 @@ const GlobalReachSection: React.FC = () => {
           {locations.map((location) => (
             <div
               key={location.id}
-              className="bg-white rounded-lg p-6 shadow-md transform hover:scale-105 transition-transform duration-300"
+              className="bg-white rounded-lg p-8 shadow-md flex flex-col items-center"
             >
-              <div className="flex items-center">
-                <span className="text-4xl mr-3">{location.flag}</span>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-800">{location.name}</h3>
-                  <p className="text-gray-500 text-sm">{location.region}</p>
-                </div>
-              </div>
+              <span className="mb-4">
+                <img
+                  src={`https://unpkg.com/flagpack@latest/flags/4x3/${location.code}.svg`}
+                  alt={`Bandera de ${location.name}`}
+                  className="w-12 h-8 object-contain rounded"
+                />
+              </span>
+              <h3 className="text-xl font-semibold text-primary mb-2">{location.name}</h3>
+              <p className="text-gray-600">{location.region}</p>
             </div>
           ))}
         </div>
@@ -82,8 +84,8 @@ const GlobalReachSection: React.FC = () => {
               key={index}
               className="bg-white p-6 rounded-lg shadow-md text-center transform hover:scale-105 transition-transform duration-300"
             >
-              <div className="bg-[#E6F3FF] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Globe className="text-[#4A90E2] w-8 h-8" />
+              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Globe className="text-primary w-8 h-8" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">{platform.name}</h3>
               <p className="text-gray-600 text-sm">{platform.description}</p>

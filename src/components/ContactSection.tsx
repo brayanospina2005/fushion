@@ -37,7 +37,7 @@ const ContactSection: React.FC = () => {
         </h2>
 
         <div className="max-w-4xl mx-auto">
-          <div className="bg-[#E6F3FF] rounded-lg p-8 shadow-lg">
+          <div className="bg-primary/10 rounded-lg p-8 shadow-lg">
             <div className="grid md:grid-cols-2 gap-12">
               {/* Información de contacto */}
               <div className="space-y-8">
@@ -48,19 +48,19 @@ const ContactSection: React.FC = () => {
                 <div className="space-y-6">
                   <a 
                     href="mailto:info@fushioninternacional.com" 
-                    className="flex items-center group hover:text-[#8a75d9] transition-colors"
+                    className="flex items-center group hover:text-primary transition-colors"
                   >
-                    <div className="bg-white p-3 rounded-full mr-4 text-[#8a75d9] group-hover:bg-[#8a75d9] group-hover:text-white transition-colors">
+                    <div className="bg-white p-3 rounded-full mr-4 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
                       <Mail size={24} />
                     </div>
                     <div>
-                      <h4 className="font-medium text-gray-800 group-hover:text-[#8a75d9]">{t.contact.email}</h4>
+                      <h4 className="font-medium text-gray-800 group-hover:text-primary">{t.contact.email}</h4>
                       <p className="text-gray-600">info@fushioninternacional.com</p>
                     </div>
                   </a>
                   
                   <div className="flex items-center">
-                    <div className="bg-white p-3 rounded-full mr-4 text-[#8a75d9]">
+                    <div className="bg-white p-3 rounded-full mr-4 text-primary">
                       <Phone size={24} />
                     </div>
                     <div>
@@ -70,7 +70,7 @@ const ContactSection: React.FC = () => {
                   </div>
                   
                   <div className="flex items-center">
-                    <div className="bg-white p-3 rounded-full mr-4 text-[#8a75d9]">
+                    <div className="bg-white p-3 rounded-full mr-4 text-primary">
                       <MapPin size={24} />
                     </div>
                     <div>
@@ -97,12 +97,12 @@ const ContactSection: React.FC = () => {
                       href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center group hover:text-[#8a75d9] transition-colors"
+                      className="flex items-center group hover:text-primary transition-colors"
                     >
-                      <div className="bg-white p-3 rounded-full mr-4 text-[#8a75d9] group-hover:bg-[#8a75d9] group-hover:text-white transition-colors">
+                      <div className="bg-white p-3 rounded-full mr-4 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
                         {social.icon}
                       </div>
-                      <span className="font-medium text-gray-800 group-hover:text-[#8a75d9]">
+                      <span className="font-medium text-gray-800 group-hover:text-primary">
                         {social.label}
                       </span>
                     </a>

@@ -49,7 +49,7 @@ const Header: React.FC = () => {
         </div>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center">
+        <nav className="hidden lg:flex items-center">
           <ul className="flex space-x-8">
             {navLinks.map((link) => (
               <li key={link.id}>
@@ -58,7 +58,7 @@ const Header: React.FC = () => {
                   smooth={true}
                   duration={500}
                   offset={-80}
-                  className="text-gray-700 hover:text-[#8a75d9] cursor-pointer transition-colors"
+                  className="text-gray-700 hover:text-primary cursor-pointer transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -68,29 +68,29 @@ const Header: React.FC = () => {
           
           <button 
             onClick={toggleLanguage} 
-            className="ml-8 px-3 py-1 border border-[#8a75d9] rounded text-[#8a75d9] hover:bg-[#8a75d9] hover:text-white transition-colors"
+            className="ml-8 px-3 py-1 border border-primary rounded text-primary hover:bg-primary hover:text-white transition-colors"
           >
             {language === 'en' ? 'ES' : 'EN'}
           </button>
         </nav>
         
         {/* Mobile Menu Button */}
-        <div className="md:hidden flex items-center">
+        <div className="lg:hidden flex items-center">
           <button 
             onClick={toggleLanguage} 
-            className="mr-4 px-2 py-1 border border-[#8a75d9] rounded text-[#8a75d9] text-sm"
+            className="mr-4 px-2 py-1 border border-primary rounded text-primary text-sm"
           >
             {language === 'en' ? 'ES' : 'EN'}
           </button>
           
-          <button onClick={toggleMenu} className="text-[#8a75d9]">
+          <button onClick={toggleMenu} className="text-primary">
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
       </div>
       
       {/* Mobile Menu */}
-      <div className={`md:hidden bg-white ${isMenuOpen ? 'block' : 'hidden'}`}>
+      <div className={`lg:hidden bg-white ${isMenuOpen ? 'block' : 'hidden'}`}>
         <nav className="container mx-auto px-4 py-4">
           <ul className="space-y-4">
             {navLinks.map((link) => (
@@ -100,7 +100,7 @@ const Header: React.FC = () => {
                   smooth={true}
                   duration={500}
                   offset={-80}
-                  className="block text-gray-700 hover:text-[#8a75d9] cursor-pointer transition-colors"
+                  className="block text-gray-700 hover:text-primary cursor-pointer transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}

@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => {
   const t = content[language];
 
   return (
-    <section className="relative h-screen bg-gradient-to-b from-[#E6F3FF] to-white flex items-center justify-center">
+    <section className="relative h-screen bg-gradient-to-b from-primary/10 to-white flex items-center justify-center">
       <div className="container mx-auto px-4 pt-16 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
           {t.hero.title}
@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
           smooth={true}
           duration={500}
           offset={-80}
-          className="inline-block bg-[#4A90E2] text-white px-8 py-3 rounded-md font-medium hover:bg-blue-600 transition-colors cursor-pointer"
+          className="inline-block bg-primary text-white px-8 py-3 rounded-md font-medium hover:bg-primary/80 transition-colors cursor-pointer"
         >
           {t.hero.cta}
         </Link>
@@ -34,7 +34,7 @@ const HeroSection: React.FC = () => {
           smooth={true}
           duration={500}
           offset={-80}
-          className="text-[#4A90E2] cursor-pointer"
+          className="text-primary cursor-pointer"
         >
           <ArrowDown size={32} />
         </Link>
