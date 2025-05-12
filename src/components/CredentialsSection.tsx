@@ -36,8 +36,8 @@ const CredentialsSection: React.FC = () => {
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8">
-          {credentials.map((credential) => (
-            <div key={credential.id} className="bg-white rounded-lg p-8 shadow-md transform transition-transform hover:scale-105">
+          {credentials.map((credential, idx) => (
+            <div key={credential.id} className="bg-white rounded-lg p-8 shadow-md transform transition-transform hover:scale-105" data-aos="fade-up" data-aos-delay={idx * 100}>
               <div className="flex justify-center mb-6 text-primary">
                 {credential.icon}
               </div>

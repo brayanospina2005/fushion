@@ -44,7 +44,8 @@ const Header: React.FC = () => {
           <img 
             src={Logo} 
             alt="Fushion Internacional Logo" 
-            className="w-48 h-auto -translate-y-[5px]" 
+            className="w-48 h-auto -translate-y-[5px]"
+            data-aos="fade-down"
           />
         </div>
         

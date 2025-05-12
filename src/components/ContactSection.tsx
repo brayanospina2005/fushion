@@ -40,7 +40,7 @@ const ContactSection: React.FC = () => {
           <div className="bg-primary/10 rounded-lg p-8 shadow-lg">
             <div className="grid md:grid-cols-2 gap-12">
               {/* Información de contacto */}
-              <div className="space-y-8">
+              <div className="space-y-8" data-aos="fade-up">
                 <h3 className="text-2xl font-semibold text-gray-800 mb-6">
                   {t.contact.getInTouch}
                 </h3>
@@ -85,7 +85,7 @@ const ContactSection: React.FC = () => {
               </div>
 
               {/* Redes Sociales */}
-              <div>
+              <div data-aos="fade-up" data-aos-delay="200">
                 <h3 className="text-2xl font-semibold text-gray-800 mb-6">
                   Síguenos en redes sociales
                 </h3>

@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "flagpack": "^1.0.5",
+    "framer-motion": "^12.10.4",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@types/aos": "^3.0.7",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "@types/react-scroll": "^1.8.10",

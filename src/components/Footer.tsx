@@ -23,17 +23,17 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-4" data-aos="fade-up">
               <img src={LogoFooter} alt="Fushion Internacional Logo" className="w-20 h-auto" />
             </div>
-            <p className="text-white mb-4 max-w-xs">
+            <p className="text-white mb-4 max-w-xs" data-aos="fade-up" data-aos-delay="100">
               {t.footer.description}
             </p>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">{t.footer.links}</h3>
-            <ul className="space-y-2">
+            <h3 className="text-lg font-semibold mb-4 text-white" data-aos="fade-up">{t.footer.links}</h3>
+            <ul className="space-y-2" data-aos="fade-up" data-aos-delay="100">
               {navLinks.map((link) => (
                 <li key={link.id}>
                   <Link
@@ -51,8 +51,8 @@ const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">{t.footer.contact}</h3>
-            <address className="text-white not-italic">
+            <h3 className="text-lg font-semibold mb-4 text-white" data-aos="fade-up">{t.footer.contact}</h3>
+            <address className="text-white not-italic" data-aos="fade-up" data-aos-delay="100">
               123 Import Plaza, Suite 500<br />
               Miami, FL 33131, USA<br /><br />
               <span className="block mb-1">info@fushioninternacional.com</span>

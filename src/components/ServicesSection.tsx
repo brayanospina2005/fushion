@@ -33,8 +33,8 @@ const ServicesSection: React.FC = () => {
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 mb-20 justify-center">
-          {services.map((service) => (
-            <div key={service.id} className="bg-primary/10 rounded-lg p-6 text-center transform transition-transform hover:scale-105">
+          {services.map((service, idx) => (
+            <div key={service.id} className="bg-primary/10 rounded-lg p-6 text-center transform transition-transform hover:scale-105" data-aos="fade-up" data-aos-delay={idx * 100}>
               <div className="flex justify-center mb-4">
                 <div className="bg-white p-3 rounded-full shadow-md text-primary">
                   {service.icon}
@@ -54,7 +54,7 @@ const ServicesSection: React.FC = () => {
           
           <div className="grid md:grid-cols-4 gap-8">
             {processSteps.map((step, index) => (
-              <div key={step.id} className="relative">
+              <div key={step.id} className="relative" data-aos="fade-up" data-aos-delay={index * 100}>
                 <div className="flex flex-col items-center">
                   <div className="bg-primary text-white p-4 rounded-full shadow-lg z-10 mb-4">
                     {step.icon}
